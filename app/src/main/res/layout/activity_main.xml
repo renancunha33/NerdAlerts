@@ -1,12 +1,21 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#2a2a34"
+    >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    style="@style/AppTheme"
-    android:background="@drawable/background_jn">
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="9dp"
+    android:layout_marginEnd="10dp"
+
+   >
 
     <Button
         android:layout_width="match_parent"
@@ -16,8 +25,8 @@
         android:layout_gravity="center|bottom|top"
         android:layout_marginTop="10dp"
         android:onClick="somNoob"
-        android:background="#270e5b"
-        android:textColor="#dbfff8" />
+        android:background="#2cccbc"
+        android:textColor="#101018" />
 
     <Button
         android:layout_width="match_parent"
@@ -27,8 +36,8 @@
         android:layout_gravity="center|bottom|top"
         android:layout_marginTop="10dp"
         android:onClick="somTarado"
-        android:background="#270e5b"
-        android:textColor="#dbfff8" />
+        android:background="#2cccbc"
+        android:textColor="#101018" />
 
     <Button
         android:layout_width="match_parent"
@@ -38,8 +47,8 @@
         android:layout_gravity="center|bottom|top"
         android:layout_marginTop="10dp"
         android:onClick="somMentira"
-        android:background="#270e5b"
-        android:textColor="#dbfff8" />
+        android:background="#2cccbc"
+        android:textColor="#101018" />
 
     <Button
         android:layout_width="match_parent"
@@ -49,8 +58,8 @@
         android:layout_gravity="center|bottom|top"
         android:layout_marginTop="10dp"
         android:onClick="somMasc"
-        android:background="#270e5b"
-        android:textColor="#dbfff8" />
+        android:background="#2cccbc"
+        android:textColor="#101018" />
 
     <Button
         android:layout_width="match_parent"
@@ -60,6 +69,63 @@
         android:layout_gravity="center|bottom|top"
         android:layout_marginTop="10dp"
         android:onClick="somFunk"
-        android:background="#270e5b"
-        android:textColor="#dbfff8" />
+        android:background="#2cccbc"
+        android:textColor="#101018" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fominha alert"
+        android:id="@+id/fominha"
+        android:layout_gravity="center|bottom|top"
+        android:layout_marginTop="10dp"
+        android:onClick="somFominha"
+        android:background="#2cccbc"
+        android:textColor="#101018"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nojo Alert"
+        android:id="@+id/nojo"
+        android:layout_gravity="center|bottom|top"
+        android:layout_marginTop="10dp"
+        android:onClick="somNojo"
+        android:background="#2cccbc"
+        android:textColor="#101018" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overactor alert"
+        android:id="@+id/overactor"
+        android:layout_gravity="center|bottom|top"
+        android:layout_marginTop="10dp"
+        android:onClick="somActor"
+        android:background="#2cccbc"
+        android:textColor="#101018" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noveleiro Alert"
+        android:id="@+id/noveleiro"
+        android:layout_gravity="center|bottom|top"
+        android:layout_marginTop="10dp"
+        android:onClick="somNovela"
+        android:background="#2cccbc"
+        android:textColor="#101018"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nerdoffice som"
+        android:id="@+id/nerdoffice"
+        android:layout_gravity="center|bottom|top"
+        android:layout_marginTop="10dp"
+        android:onClick="somNerd"
+        android:background="#2cccbc"
+        android:textColor="#101018"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
 </LinearLayout>
+</ScrollView>
