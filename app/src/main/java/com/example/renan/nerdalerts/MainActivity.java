@@ -85,6 +85,18 @@ public class MainActivity extends AppCompatActivity {
         som.start();
         mambo = true;
     }
+    public void somNerdcast(View v){
+        valida();
+        som= MediaPlayer.create(this,R.raw.nerdcast);
+        som.start();
+        mambo = true;
+    }
+    public void somBabaca(View v){
+        valida();
+        som= MediaPlayer.create(this,R.raw.babacaalert);
+        som.start();
+        mambo = true;
+    }
 public void valida(){
 
     if (mambo){
