@@ -126,6 +126,28 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Ozob"
+        android:id="@+id/ozob"
+        android:layout_gravity="center|bottom|top"
+        android:layout_marginTop="10dp"
+        android:onClick="somOzob"
+        android:background="#2cccbc"
+        android:textColor="#101018"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Milhões!"
+        android:id="@+id/srk"
+        android:layout_gravity="center|bottom|top"
+        android:layout_marginTop="10dp"
+        android:onClick="somK"
+        android:background="#2cccbc"
+        android:textColor="#101018"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Nerdcast som"
         android:id="@+id/nerdcast"
         android:layout_gravity="center|bottom|top"
@@ -145,6 +167,7 @@
         android:background="#2cccbc"
         android:textColor="#101018"
         />
+
     <TextView
         android:layout_marginTop="10dp"
         android:layout_width="10dp"
